@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#1a8cff"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AddKids">
+
+
+            <EditText
+                android:layout_marginBottom="10dp"
+                android:id="@+id/staffname"
+                android:layout_width="match_parent"
+                android:hint="Staff Name"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#000"
+                android:background="@drawable/bgtext"
+                android:paddingLeft="20dp"
+                android:textSize="20dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bgtext"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/spinner2"
+            />
+
+
+
+        <EditText
+            android:id="@+id/homePhone"
+            android:inputType="phone"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:hint="Staff Phone"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000"
+            android:background="@drawable/bgtext"
+            android:paddingLeft="20dp"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/staffAddress"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:hint="Staff Address"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000"
+            android:background="@drawable/bgtext"
+            android:paddingLeft="20dp"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/staffEmail"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:hint="Staff Email"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000"
+            android:background="@drawable/bgtext"
+            android:paddingLeft="20dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/staffPassword"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:hint="Staff Password"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000"
+            android:background="@drawable/bgtext"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/addStaff"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Add Staff"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:background="@drawable/custombutton"
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>

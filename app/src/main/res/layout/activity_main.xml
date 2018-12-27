@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group9"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/rotate"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="33dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:srcCompat="@drawable/kids" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:fontFamily="@font/myfont"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:gravity="center"
+        android:text="HiMamyDad"
+        android:textColor="#FFF"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/staff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rotate" />
+
+    <Button
+        android:id="@+id/staff"
+        android:layout_width="333dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/custombutton"
+        android:gravity="center"
+        android:text="Add Staff"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/kids"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/kids"
+        android:layout_width="333dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/custombutton"
+        android:gravity="center"
+        android:text="ADD Kids"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/staff" />
+</android.support.constraint.ConstraintLayout>
